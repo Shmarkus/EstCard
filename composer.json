@@ -1,0 +1,29 @@
+{
+    "name": "codehouse/estcard",
+    "description": "Nets EstCard implementation",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "payment",
+        "credit card",
+        "nets",
+        "estcard"
+    ],
+    "authors": [
+        {
+            "name": "Markus Karileet",
+            "email": "markus.karileet@codehouse.ee"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeHouse\\EstCard\\": "src"
+        }
+    }
+}
