@@ -16,11 +16,11 @@
             "email": "markus.karileet@codehouse.ee"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.6",
         "ext-mbstring": "*",
-        "lib-openssl": "*"
+        "ext-openssl": "*"
     },
     "autoload": {
         "psr-4": {
